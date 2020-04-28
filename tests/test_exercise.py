@@ -1,7 +1,5 @@
 import pytest
-from src.exercise import main
+from src.exercise import sum
 
-def test_exercise(capsys):
-    main()
-    out, err = capsys.readouterr()
-    assert out == "\n", "Should read ''"
+def test_exercise():
+    assert sum(16, 12, 5, 3) == 36

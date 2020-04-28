@@ -1,16 +1,13 @@
 # Exercise 2.27 Summation
 
-Expand the method `sum` in the exercise template so that it calculates and returns the sum of the numbers that are given as the parameters.
-
-Create the method using the following structure:
+Create the method `sum` in the exercise template so that it calculates and returns the sum of the numbers that are given as the parameter using the following structure:
 
 ```python
 def sum(number1, number2, number3, number4):
     # write your code here
     # remember to include return (at the end)!
-:
 
-main():
+def main():
     answer = sum(4, 3, 6, 1)
     print("Sum: " + str(answer))
 ```
